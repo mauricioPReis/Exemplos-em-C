@@ -1,7 +1,11 @@
 #include <stdio.h>
 
-int main(void) {
-	int m, n;
+int main(void){
+	int a = matrizVariavel();
+}
+
+
+int matrizVariavel (int m, int n) {
     printf("TAMANHO DA MATRIZ\n");
     printf("Quantidade de LINHAS: ");
 	scanf("%d", &m);
