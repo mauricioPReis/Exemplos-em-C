@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
 	
 	for(int i = 0; i < 3; i++) {
 		for(int j = 0; j < 2; j++){
-			printf(" %d ", matriz[i][j]);
+			printf(" %d ", 2 * matriz[i][j]);
 		}		
 		printf("\n");
 	}
